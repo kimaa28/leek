@@ -4,3 +4,8 @@ mais je m'en bas les couilles de votre avis alles ist mir egal
 la vie ici bas n'est faites que de deception mais j'aime et je prefere rester a l'ecart de certaines personnes qui pourrais me distraire dans ma quete de savoir
 l'avie d'autrui mes completement egal c'est ce que j'essaie de me convaincre mais je sais das mon fnd interieur que c'est faux
 bref
+<<<<<<< HEAD
+=======
+c'est la vie
+
+>>>>>>> master2.0
