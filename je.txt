@@ -2,6 +2,7 @@ je suis un gros con
 mais je m'en bas les couilles de votre avis alles ist mir egal
 mais je m'en bas les couilles de votre avis alles ist mir egal
 <<<<<<< HEAD
+<<<<<<< HEAD
 la vie ici bas n'est faites que de deception mais j'aime et je prefere rester a l'ecart de certaines personnes qui pourrais me distraire dans ma quete de savoir
 l'avie d'autrui mes completement egal c'est ce que j'essaie de me convaincre mais je sais das mon fnd interieur que c'est faux
 bref
@@ -16,3 +17,6 @@ c'est la vie
 >>>>>>> master2.0
 =======
 >>>>>>> 098c265 (commit & staging)
+=======
+en fait je sais pas pourquoi je parle tous seul je sais tres bien me meller a la foule mais j'aime pas l'idee de toujours porter ún masque
+>>>>>>> 0d579b7 (any)
