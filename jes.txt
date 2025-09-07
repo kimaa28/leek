@@ -1,1 +1,6 @@
 je.txt
+<<<<<<< HEAD
+=======
+suis un gros con
+
+>>>>>>> master2.0
