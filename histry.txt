@@ -1,0 +1,500 @@
+  179  git show
+  180  git commit 
+  181  git commit --allow-empty
+  182  git commit --allow-empty
+  183  cd .git/
+  184  ls 
+  185  ls -la
+  186  rm COMMIT_EDITMSG 
+  187  cd ..
+  188  git commit --allow-empty
+  189  git tad -list
+  190  git tag -list
+  191  git tag --list
+  192  git tag 
+  193  nano 
+  194  git stash -u
+  195  git add con.txt 
+  196  git stash -m "con text"
+  197  nano con.txt 
+  198  git stash -m "con text"
+  199  git stash -m -a -u "con text"
+  200  git stash push -m "con text"
+  201  git stash push -m -u "con text"
+  202  git stash push -m "text"
+  203  ls
+  204  git status 
+  205  git add con.txt 
+  206  ls
+  207  ls -la
+  208  chmod 700 con.txt 
+  209  git add con.txt 
+  210  git status 
+  211  git add .
+  212  nano con.txt
+  213  echo > "je suis un con" je.txt
+  214  ls
+  215  rm je\ suis\ un\ con 
+  216  ls
+  217  echo >> "je suis un con" je.txt
+  218  ls
+  219  echo "je suis un gros con" > je.txt && git add . && git stash push -m " je m'en bas les yecouil"
+  220  ls
+  221  rm con.txt 
+  222  echo "je suis un gros con" > je.txt && git add . && git stash push -m " je m'en bas les yecouil"
+  223  git stash --list
+  224  git stash -list
+  225  git stash list
+  226  git stash show 
+  227  git stash
+  228  git stash show -p
+  229  git show
+  230  git stash list
+  231  git stash apply stash@{0}
+  232  git status
+  233  git commit -a --amend --no-edit 
+  234  git show
+  235  git stash drop stash@{1}
+  236  git stash list
+  237  history 
+  238  git log --stat
+  239  git tag --stat
+  240  git shoh -p
+  241  git show -p
+  242  git show learn
+  243  git tag -a --amend --no-edit 
+  244  git tag -a --amend --no-edit
+  245  git tag learn -m " i dont no what to write in this space"
+  246  git tag -f learn -m " i dont no what to write in this space"
+  247  git show learn
+  248  git diff
+  249  git diff --staged
+  250  git log
+  251  git log --author="kimaa"
+  252  exit
+  253  history 
+  254  cd git_learning/
+  255  ls -la
+  256  rm je suis un con
+  257  nano je
+  258  nano je.txt 
+  259  echo -e "mais je m'en bas les couilles de votre avis alles ist mir egal" >> je.txt && git stash push --amend --no-edit 
+  260  echo -e "mais je m'en bas les couilles de votre avis alles ist mir egal" >> je.txt && git stash push -u -m "je ssuis un gros con mais je l'acepete" 
+  261  git stash list
+  262  git stash show stash@{0}
+  263  git stash show stash@{0} -p
+  264  git log --graph 
+  265  echo "hello world"
+  266  echo "hello world"*3
+  267  echo "hello world" x 3
+  268  git show
+  269  git stash apply stash@{0}
+  270  git status
+  271  git commit -a --amend --no-edit 
+  272  ls -la
+  273  git status 
+  274  git stash push -u -m 
+  275  git stash push -u 
+  276  git stash list
+  277  git stash apply stash@{0}
+  278  git commit -a 
+  279  ls -la
+  280  cd .git/
+  281  ls -la
+  282  rm .COMMIT_EDITMSG.swp 
+  283  cd ..
+  284  git commit -a 
+  285  git diff 
+  286  git diff --staged
+  287  history 
+  288  git tag 
+  289  cd git_learning/
+  290  git tag
+  291  git show-branch 
+  292  git remote set-branches main
+  293  git show firs
+  294  git show firs --stat
+  295  git show learn --stat
+  296  py 
+  297  py http.server 8000 --cgi
+  298  python3 http.server 8000 --cgi
+  299  git help
+  300  branch 
+  301  git branch 
+  302  git branch learn 
+  303  git branch 
+  304  git log --graph 
+  305  git show learn
+  306  git help --all
+  307  git show -h
+  308  git help -g
+  309  git branch learn -d
+  310  git branch test-py
+  311  git branch list
+  312  git branch --list
+  313  git branch list -d
+  314  git checkout test-py
+  315  git checkout test-py
+  316  git branch
+  317  nano files.py 
+  318  git stash push -a -m "nicht zu sagen test branch"
+  319  git stash list
+  320  git config --list
+  321  git stash apply stash@{0}
+  322  git commit -a --amend --no-edit 
+  323  git checkout master 
+  324  git log 
+  325  git log --graph
+  326  git checkout test-py 
+  327  git log 
+  328  git show
+  329  git log --stat
+  330  git log --since="1 hours"
+  331  git log --since="20 min ago"
+  332  git log --since="200 min ago"
+  333  git log --since="20000 min ago"
+  334  git log --since="2 days ago"
+  335  git log --graph 
+  336  git status
+  337  nano jes.txt 
+  338  git checkout master
+  339  git status 
+  340  git commit --amend -a
+  341  git status
+  342  git add jes.txt 
+  343  git commit --amend --no-edit 
+  344  git status
+  345  git checkout test-py 
+  346  git status 
+  347  nano html.html
+  348  ls
+  349  nano je.txt 
+  350  ls -la
+  351  git checkout master 
+  352  ls
+  353  ls -la
+  354  git status
+  355  git checkout test-py 
+  356  ls -la
+  357  ls -la
+  358  git checkout master 
+  359  git branch hello
+  360  git branch
+  361  git checkout hello 
+  362  ls -la
+  363  nano je.txt 
+  364  git status 
+  365  git commit -a --amend --no-edit
+  366  git log --stat
+  367  git config --local user.name "jordan"
+  368  git config --list
+  369  nano je.txt 
+  370  git commit -a --amend --no-edit 
+  371  git log --author
+  372  git log --author="jordan"
+  373  git log 
+  374  nano je.txt 
+  375  git commit -m -a "any"
+  376  git commit -a -m "any"
+  377  git log
+  378  git checkout master
+  379  git log 
+  380  nano je.txt 
+  381  git config --list
+  382  git commit -am "any"
+  383  git log
+  384  git config -h
+  385  git status 
+  386  git checkout firs
+  387  ls -la
+  388  git checkout hello 
+  389  git tag hello-tag -m "just a tag test for hello"
+  390  git tag
+  391  git show hello-tag 
+  392  git checkout hello-tag 
+  393  git checkout master
+  394  git branch 
+  395  git branch -d test-py 
+  396  git branch -m test-py any
+  397  git branch 
+  398  git merge -h
+  399  nano je.txt 
+  400  git branch
+  401  git show any
+  402  git stash push -m "merge master and any"
+  403  git stash list
+  404  git merge any
+  405  git merge hello
+  406  git switch hello
+  407  git log
+  408  git status
+  409  git merge master
+  410  git branch master2.0
+  411  git switch master2.0 
+  412  nano je.txt 
+  413  git commit -a --amend --no-edit 
+  414  git switch hello 
+  415  git merge master2.0
+  416  nano je.txt 
+  417  git merge master2.0
+  418  git status
+  419  git commit -a --amend -no-edit
+  420  git commit -a --amend --no-edit
+  421  git commit -am "je suis un putin de con"
+  422  git status
+  423  git merge master2.0
+  424  nano je.txt 
+  425  git log
+  426  git log --oneline 
+  427  git switch master2.0
+  428  git merge hello
+  429  nano je.txt 
+  430  git commit -a --amend --no-edit 
+  431  git switch hello
+  432  git merge master2.0
+  433  nano je.txt
+  434  nano je.txt
+  435  nano jes.txt 
+  436  git switch master
+  437  nano jes
+  438  nano jes.txt 
+  439  git merge master2.0
+  440  git switch master2.0
+  441  git merge master2.0
+  442  git status 
+  443  git commit -a --amend --no-edit 
+  444  git commit -am "any commit" 
+  445  nano jes.txt 
+  446  nano je.txt 
+  447  git switch master2.0
+  448  nano jes.txt 
+  449  git merge hello
+  450  git log --stat
+  451  nano jes.txt 
+  452  git switch master
+  453  git status 
+  454  git merge hello
+  455  git log 
+  456  git show hello
+  457  git merge master2.0 
+  458  git merge master2.0 --allow-unrelated-histories 
+  459  nano je.txt 
+  460  git status
+  461  git add -
+  462  git add .
+  463  git rm --cached .
+  464  git rm -r --cached .
+  465  git status 
+  466  nano je.txt 
+  467  git diff
+  468  git diff --staged 
+  469  git show
+  470  git log 
+  471  git commit -am "some change"
+  472  git status 
+  473  ls
+  474  git log --oneline 
+  475  git add .
+  476  git restore --staged je.txt
+  477  git status 
+  478  git clone https://github/.com/kimaa/PROJEKT.git
+  479  git clone https://github.com/kimaa/PROJEKT.git
+  480  git clone https://github.com/kimaa28/PROJEKT.git
+  481  ls
+  482  cd PROJEKT/
+  483  ls
+  484  git roemote -v
+  485  git remote -v
+  486  cd GUI/
+  487  nano LINUX_class.py 
+  488  git push --set-upstream origin master
+  489  ls
+  490  git status 
+  491  git add .
+  492  git push --set-upstream origin master
+  493  git commit -a --amend --no-edit 
+  494  git push --set-upstream origin master
+  495  git pull --rebase origin 
+  496  git push --set-upstream origin master
+  497  cd ../..
+  498  git remote -v
+  499  exit
+  500  cd git_learning/
+  501  git branch 
+  502  nano je.txt 
+  503  git switch hello 
+  504  git branch master2
+  505  git switch master2
+  506  nano je.txt 
+  507  git branch -D master2
+  508  cd master
+  509  git branch -D master2
+  510  git switch master
+  511  git branch -D master2
+  512  nano je.txt 
+  513  touch .gitignore
+  514  nano .gitignore 
+  515  git remote add origin git@github.com:kimaa28/jordan.git
+  516  git remote -v
+  517  cd PROJEKT/
+  518  git remote -v
+  519  cd ..
+  520  git remote -v
+  521  git push --set-upstream origin master
+  522  git log
+  523  git remote -v
+  524  git push --set-upstream origin/master master
+  525  git push --set-upstream origin master
+  526  git pull --rebase 
+  527  git commit -a --amend --no-edit 
+  528  git pull --rebase 
+  529  ls -la ~/.ssh
+  530  [200~ssh-keygen -t ed25519 -C "deine.email@example.com"
+  531  ssh-keygen -t ed25519 -C "kitiojordan@gmail.com"
+  532  eval "$(ssh-agent -s)"
+  533  ssh-add ~/.ssh/id_ed25519
+  534  eval "$(ssh-agent -s)"
+  535  ssh-add ~/.ssh/id_ed25519
+  536  ssh-add ~/.ssh/id_rsa
+  537  cat ~/.ssh/id_ed25519.pub
+  538  ssh -T git@github.com
+  539  ssh-keygen -t ed25519 -C "kitiojordan@gmail.com"
+  540  ssh-keygen -t ed25519 -C "kitiojordan@gmail.com"
+  541  cat ~/.ssh/id_ed25519.pub
+  542  ssh-add ~/.ssh/id_rsa
+  543  ssh-add ~/.ssh/id_ed25519
+  544  ls -al ~/.ssh
+  545  git remote add origin https://github.com/kimaa28/jordan.git
+  546  ssh -keygen -t rsa -b 4096 -C "kitiojordan28@gmail.com"
+  547  ssh-keygen -t rsa -b 4096 -C "kitiojordan28@gmail.com"
+  548  ssh-add ~/.ssh/id_rsa
+  549  cd ..
+  550  cd .ssh/
+  551  ls -la
+  552  cd ..
+  553  cd git_learning/
+  554  cd ..
+  555  ssh-keygen -t rsa -b 4096 -C "kitiojordan28@gmail.com"
+  556  ssh-add ~/.ssh/id_rsa
+  557  cd git_learning/
+  558  git clone git@github.com/kimaa/jordan.git
+  559  git clone git@github.com:kimaa28/jordan.git
+  560  git remote -v
+  561  git push --set-upstream origin master
+  562  git status
+  563  git remote set-url origin https://github.com/kimaa28/jordan.git
+  564  git push --set-upstream origin master
+  565  git pull 
+  566  ls
+  567  git push 
+  568  git pull --rebase origin master
+  569  git pull --rebase origin 
+  570  git pull master master
+  571  git pull origin/master master
+  572  git pull origin master
+  573  ls
+  574  git push --set-upstream origin master
+  575  ls
+  576  git status 
+  577  git git push -h
+  578  git git push -g
+  579  git git push --help
+  580  git push --help
+  581  git push --set-upstream origin master
+  582  git pull --rebase
+  583  git pull --rebase origin master
+  584  git status 
+  585  git push --set-upstream origin master
+  586  git commit -a --amend --no-edit
+  587  git status
+  588  git add .
+  589  git status 
+  590  git commit -am "test jordan"
+  591  git push --set-upstream origin master
+  592  git pull origin master
+  593  git pull origin master
+  594  git push --set-upstream origin master
+  595  git pull --rebase origin master
+  596  git push origin master
+  597  git branch
+  598  git switch master
+  599  git rebase --quit
+  600  git branch
+  601  git switch master
+  602  git switch master
+  603  git branch
+  604  git status
+  605  ls
+  606  git remote -v
+  607  git push --set-upstream origin master
+  608  git pull origin master
+  609  ls
+  610  git pull --rebaese origin master
+  611  git pull --rebase origin master
+  612  ls
+  613  git status 
+  614  git add .
+  615  git status
+  616  git pull --rebase origin master
+  617  git commit -a --amend --no-edit
+  618  git pull --rebase origin master
+  619   rm -fr ".git/rebase-merge"
+  620  ls
+  621  git pull --rebase origin master
+  622  ls
+  623  git push --set-upstream origin master
+  624  git remote set-url https://github.com/kimaa28/Learn_code.git
+  625  git remote set-url origin https://github.com/kimaa28/Learn_code.giteeeee
+  626  git remote set-url origin https://github.com/kimaa28/Learn_code.git
+  627  git pull origin master
+  628  git push --set-upstream origin master
+  629  git remote set-url origin https://github.com/kimaa28/leek.git
+  630  git branch
+  631  git branch master
+  632  git checkout master
+  633  git remote set-url origin https://github.com/kimaa28/leek.git
+  634  git status
+  635  git push --set-upstream origin master
+  636  git switch hello 
+  637  git push --set-upstream origin hello
+  638  git config --lust
+  639  git config --list
+  640  ls
+  641  git status 
+  642  ls -la
+  643  git switch master
+  644  ls -la
+  645  ls -la
+  646  cd .git/
+  647  ls
+  648  cd FETCH_HEAD 
+  649  nano FETCH_HEAD 
+  650  git tag
+  651  git push origin learn
+  652  git push -h
+  653  cd ..
+  654  git push origin master
+  655  git checkout firs
+  656  ls
+  657  git switch learn
+  658  git switch any
+  659  git switch hello
+  660  git log
+  661  git checkout -h
+  662  git log --oneline 
+  663  git checkout hello -- becf35f
+  664  git checkout hello -- je.txt
+  665  ls
+  666  nano je.txt
+  667  git checkout hello -- je.txt -- becf35f
+  668  git stash list
+  669  git branch -a
+  670  git branch 
+  671  git branch -a
+  672  git branch -r
+  673  git push --set-upstream origin hello
+  674  git push origin --delete hello 
+  675  git push --set-upstream origin hello
+  676  git --help
+  677  git show FETCH_HEAD 
+  678  history > histry.txt
