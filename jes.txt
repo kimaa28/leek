@@ -1,6 +1,13 @@
 je.txt
 <<<<<<< HEAD
+<<<<<<< HEAD
 suis un gros con
 
 =======
 >>>>>>> 098c265 (commit & staging)
+=======
+=======
+suis un gros con
+
+>>>>>>> master2.0
+>>>>>>> bcd5c6bfe9260d1a066d4b4ee8074f44463b23ed
