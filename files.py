@@ -17,4 +17,4 @@ liste = [f"lektion{i}" for i in range(5)]
 
 for i in liste :
     print(i, "je suis un gros con")
-    
+    print("mais je m'en bas les couilles, j'ai la sante c'est deja ca ")
